@@ -1,0 +1,172 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.css");
+a.logo {
+
+  font-size: 20px;
+
+  font-weight: 300;
+
+  color: #fed189;
+
+  float: left;
+
+  margin-top: 15px;
+
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem;
+  margin-top:-3px
+}
+
+.username {
+
+  font-size: 13px;
+
+  color: #bdbdbd;
+
+}
+
+.container-fluid{
+  margin-top:10px
+}
+
+.btn{
+  margin-bottom: 10px;
+}
+
+.login-img3-body{
+
+  background: url('../img/login.jpg') no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+
+  -moz-background-size: cover;
+
+  -o-background-size: cover;
+
+  background-size: cover;
+
+}
+.login-img3-body .login-form{
+
+  border: 1px solid #B0B6BE;
+
+  background: rgba(213,215,222,0.9);
+
+}
+.login-img3-body .login-form p,.login-img2-body .login-form p {
+
+  color: #34aadc;
+
+}
+.card-body .datatablesSimple th, table  tr{
+  text-align: center;
+  vertical-align :center;
+ 
+}
+table .datatablesSimple tr{
+  min-height: 100px;
+}
+.form-floating > textarea{
+  min-height:200px;
+}
+.form-floating  textarea.form-control-ha{
+   
+  min-height:50px;
+}
+.tCabecera{
+  align-content: right;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  opacity: 80%;
+}
+.badge:empty {
+  display: none;
+}
+
+.btn .badge {
+  position: relative;
+  top: -1px;
+}
+.table>td{
+  vertical-align: center;
+}
+strong{
+  color: white;
+}
+
+.cabeceraP{
+  text-align: center; 
+  border-collapse: collapse; 
+  border: 1px solid black;
+  text-align: center;
+  align-items: center;
+}
+.cabecera{
+  text-align: center;
+  margin-top: 20px;
+}
+#title1>td, 
+#title2>td, 
+#title3>td{
+  font-size: 10;
+  border:1px solid black;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#detalleP>td{
+  font-size: 10;
+  border:1px solid black;
+  font-weight: bold;
+}
+#detalleC{
+  margin-left: 170px;
+}
+#detalleC div{
+  font-size: 14;
+  font-weight: bold;
+}
+#totalP{
+  font-size: 20;
+  font-weight: bolder;
+}
+#firmas{
+  margin: 150px 0px 0px 200px;
+}
+#empleador{
+  margin-top: 40px;
+}
+div#empleador table thead th{
+  width:50%;
+  Color: white;
+  font-size: 14px;
+  padding:2px;
+}
+div#empleador table tbody tr td{
+  padding:2px;
+  font-size: 14px;
+}
+div#Bdetalle table thead th,
+div#Bdetalle table tbody tr td{
+  padding:2px;
+}
+
+section.panel.boleta div#btc{
+  text-align: right;
+  font-weight: bold;
+}
+section.panel.boleta div#bstc{
+  text-align: left;
+  
+}

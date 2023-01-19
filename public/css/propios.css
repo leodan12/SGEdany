@@ -1,0 +1,399 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.css");
+/* .panel .boleta{
+
+    margin-bottom: 30px;
+    border:1px solid;
+    border-color:rgb(83, 83, 83);
+    margin-top:30px;
+}
+
+.panel .boletaD
+{
+  margin-bottom: 0px;
+  border:1px solid;
+  border-color:rgb(83, 83, 83);
+  margin-top:30px;
+}
+
+.panel .boletaD .row,
+.panel .boletaT .row
+{
+  text-align: center;
+  margin: auto;
+  display: flex;
+  width: 100%;
+}
+
+.panel .aportes
+{
+  margin-bottom: 20px;
+}
+
+.panel .aportes p
+{
+  margin: 0px 10px 0px 10px;
+}
+
+.panel .aportes .row
+{
+  text-align: center;
+  margin-left:-1px;
+  display: flex;
+  width: 40%;
+  align-content: center;
+  font-size: 12;
+}
+
+
+.panel .boleta .row .cab,
+.panel .boleta .row .fin
+{
+  text-align: center;
+  margin: auto;
+}
+
+.panel .boleta .row .det
+{
+  border: 1px solid;
+}
+
+.panel .boletaD .row .d1,
+.panel .aportes .row .d1
+{
+  border-left: 1px solid;
+  border-right: 1px solid
+}
+
+.panel .boletaD .row .d2,
+.panel .aportes .row .d2
+{
+  border-left: 1px solid;
+}
+
+.panel .boletaD .row .d table,
+.panel .boletaD .row .d1 table,
+.panel .boletaD .row .d2 table
+{
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: auto;
+}
+
+.panel .boletaD .row .d .table-sm td,
+.panel .boletaD .row .d1 .table-sm td,
+.panel .boletaD .row .d2 .table-sm td
+{
+  border: none;
+  text-align: center;
+  font-size: 14;
+  width: 500px;
+}
+
+.panel .boletaD .row .i,
+.panel .boletaD .row .ii,
+.panel .boletaD .row .if,
+.panel .aportes .row .c1,
+.panel .aportes .row .c2,
+.panel .aportes .row .c3
+{
+  border:1px solid black;
+  background-color: black;
+}
+
+.panel .boletaT .row .nt
+{
+  text-align: right;
+  color:rgb(71, 71, 71);
+}
+
+.panel .boletaT .row .mt
+{
+  text-align:center;
+  color:rgb(71, 71, 71);
+}
+
+
+.panel .boletaD .row .i strong,
+.panel .boletaD .row .ii strong,
+.panel .boletaD .row .if strong,
+.panel .aportes .row .c1 strong,
+.panel .aportes .row .c2 strong,
+.panel .aportes .row .c3 strong
+{
+  color:white;
+}
+
+
+.panel .boletaD .row .ii,
+.panel .aportes .row .c2
+{
+ border-left: 1px solid white;
+ border-right: 1px solid white;
+}
+.panel .boletaD .row .if,
+.panel .aportes .row .c3
+{
+  border-left-color: white;
+}
+
+.panel .firma .row
+{
+  text-align: center;
+  margin: auto;
+  display: flex;
+  width: 100%;
+  font-size: 12;
+  height: 200px;
+}
+
+.panel .firma .row .firma
+{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.panel .panel-body .cont
+{
+  display: flex;
+}
+.panel .perfil
+{
+ height: 100%;
+}
+.panel .NewContra,
+.panel .perfil
+{
+  border: 1px solid;
+  border-color: darkgrey;
+  padding:20px;
+  width:100%;
+  margin:10px;
+  display: block;
+} */
+a.logo {
+
+  font-size: 20px;
+
+  font-weight: 300;
+
+  color: #fed189;
+
+  float: left;
+
+  margin-top: 15px;
+
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem;
+  margin-top:-3px
+}
+
+.username {
+
+  font-size: 13px;
+
+  color: #bdbdbd;
+
+}
+
+.container-fluid{
+  margin-top:10px
+}
+
+.btn{
+  margin-bottom: 10px;
+}
+
+.login-img3-body{
+
+  background: url('../img/login.jpg') no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+
+  -moz-background-size: cover;
+
+  -o-background-size: cover;
+
+  background-size: cover;
+
+}
+.login-img3-body .login-form{
+
+  border: 1px solid #B0B6BE;
+
+  background: rgba(213,215,222,0.9);
+
+}
+.login-img3-body .login-form p,.login-img2-body .login-form p {
+
+  color: #34aadc;
+
+}
+.card-body .datatablesSimple th, table  tr{
+  text-align: center;
+  vertical-align :center;
+ 
+}
+table .datatablesSimple tr{
+  min-height: 100px;
+}
+.form-floating > textarea{
+  min-height:200px;
+}
+.form-floating  textarea.form-control-ha{
+   
+  min-height:50px;
+}
+.tCabecera{
+  align-content: right;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  opacity: 80%;
+}
+.badge:empty {
+  display: none;
+}
+
+.btn .badge {
+  position: relative;
+  top: -1px;
+}
+.table>td{
+  vertical-align: center;
+}
+strong{
+  color: white;
+}
+
+.cabeceraP{
+  text-align: center; 
+  border-collapse: collapse; 
+  border: 1px solid black;
+  text-align: center;
+  align-items: center;
+}
+.cabecera{
+  text-align: center;
+  margin-top: 20px;
+}
+#title1>td, 
+#title2>td, 
+#title3>td{
+  font-size: 10;
+  border:1px solid black;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#detalleP>td{
+  font-size: 10;
+  border:1px solid black;
+  font-weight: bold;
+}
+#detalleC{
+  margin-left: 170px;
+}
+#detalleC div{
+  font-size: 14;
+  font-weight: bold;
+}
+#totalP{
+  font-size: 20;
+  font-weight: bolder;
+}
+#firmas{
+  margin: 150px 0px 0px 200px;
+}
+#empleador{
+  margin-top: 40px;
+}
+div#empleador table thead th{
+  width:50%;
+  Color: white;
+  font-size: 14px;
+  padding:2px;
+}
+div#empleador table tbody tr td{
+  padding:2px;
+  font-size: 14px;
+}
+div#Bdetalle table thead th,
+div#Bdetalle table tbody tr td{
+  padding:2px;
+}
+
+section.panel.boleta div#btc{
+  text-align: right;
+  font-weight: bold;
+}
+section.panel.boleta div#bstc{
+  text-align: left;
+}
+
+div.card-body form#ActContraseñas div input{
+max-height: 80px  ;
+}
+
+.clockdate-wrapper {
+  background-color: #333;
+  padding:25px;
+  max-width:400px;
+  width:100%;
+  text-align:center;
+  border-radius:5px;
+  margin:0 auto;
+    margin-top:0%;
+ 
+}
+#title{
+  background-color:#333;
+  font-family: Georgia;
+  font-size:16px;
+  text-shadow:0px 0px 1px #fff;
+  color:rgb(0, 255, 115);
+}
+#clock{
+  background-color:#333;
+  font-family: sans-serif;
+  font-size:60px;
+  text-shadow:0px 0px 1px #fff;
+  color:rgb(4, 217, 255);
+}
+div#date {
+  font-weight: bold;
+  font-size:14px;
+  font-family: Georgia;
+  color:rgb(4, 255, 171);
+}
+#tipoRegistro{
+text-transform: uppercase;
+}
+#btnReg{
+  margin-left: 33%;
+}
+#Tleyenda>tbody{
+font-weight: bold;
+font-size: 11;
+}
+#Tleyenda>tbody>tr>td#pos{
+
+  margin:0;
+  padding:0px;
+  text-align: right;
+}
+#Tleyenda>tbody>tr>td#nombre{
+
+  margin:0;
+  padding:0 0 0 3;
+}
