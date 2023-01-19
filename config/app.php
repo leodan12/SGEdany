@@ -160,8 +160,7 @@ return [
         Illuminate\Session\SessionServiceProvider::class,
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
-        Illuminate\View\ViewServiceProvider::class,
-        Barryvdh\DomPDF\ServiceProvider::class,
+        Illuminate\View\ViewServiceProvider::class, 
 
         /*
          * Package Service Providers...
@@ -226,10 +225,7 @@ return [
         'Str' => Illuminate\Support\Str::class,
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
-        'View' => Illuminate\Support\Facades\View::class,
-        'domPDF' => Barryvdh\DomPDF\Facade::class,
-        // 'pdf' => Barryvdh\Snappy\Facades\SnappyPdf::class,
-        // 'Image' => Barryvdh\Snappy\Facades\SnappyImage::class,
+        'View' => Illuminate\Support\Facades\View::class,  
     ],
 
 ];
